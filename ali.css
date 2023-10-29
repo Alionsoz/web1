@@ -1,0 +1,111 @@
+/* Temel stil ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+.container img {
+    width: 15%;
+    height: auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Sosyal medya ikonları */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+/* Yetenekler */
+.skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.progress {
+    flex: 3;
+    height: 20px;
+    background-color: #007BFF;
+}
+
+/* İletişim formu */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+}
